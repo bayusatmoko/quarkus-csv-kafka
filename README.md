@@ -2,8 +2,8 @@
 ./mvnw quarkus:dev or .\mvnw quarkus:dev
 
 ## RUN PROD
-./mvnw quarkus:build or .\mvnw quarkus:build
-java -jar ./target/quarkus-app/quarkus-run.jar
+1. ./mvnw quarkus:build or .\mvnw quarkus:build
+2. java -jar ./target/quarkus-app/quarkus-run.jar
 
 ## Generate public and private key (OPTIONAL)
 1. openssl genrsa -out rsaPrivateKey.pem 2048
