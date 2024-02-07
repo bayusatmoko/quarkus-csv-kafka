@@ -1,5 +1,8 @@
+## RUN KAFKA
+1. docker compose up -d
+
 ## RUN DEV
-./mvnw quarkus:dev or .\mvnw quarkus:dev
+1. ./mvnw quarkus:dev or .\mvnw quarkus:dev
 
 ## RUN PROD
 1. ./mvnw quarkus:build or .\mvnw quarkus:build
